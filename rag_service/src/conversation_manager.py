@@ -11,7 +11,7 @@ class ConversationManager:
     def __init__(self, max_history: int = 3, mongo_uri: Optional[str] = None, db_name: Optional[str] = None, max_context_tokens: int = 1000):
         self.max_history = max_history
         self.max_context_tokens = max_context_tokens
-        mongo_uri = mongo_uri or os.getenv("MONGODB_URI") or os.getenv("MONGO_URI") or "mongodb://localhost:27017"
+        mongo_uri = mongo_uri or os.getenv("MONGODB_URI") or os.getenv("MONGO_URI") or "mongodb://127.0.0.1:27017"
         db_name = db_name or os.getenv("MONGO_DB_NAME") or "rag_service"
         self.client = MongoClient(
             mongo_uri,

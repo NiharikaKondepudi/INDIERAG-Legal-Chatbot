@@ -1,7 +1,7 @@
 const Conversation = require('../models/Conversation');
 const fetch = require('node-fetch');
 
-const RAG_SERVICE_URL = process.env.RAG_SERVICE_URL || 'http://localhost:8000';
+const RAG_SERVICE_URL = process.env.RAG_SERVICE_URL || 'http://127.0.0.1:8000';
 
 // List user's chats
 exports.listChats = async (req, res) => {

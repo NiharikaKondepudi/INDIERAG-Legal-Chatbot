@@ -12,7 +12,7 @@ print(f"Running benchmark: {data['benchmark_name']}")
 print(f"Total questions: {len(benchmark)}\n")
 
 # Call evaluation endpoint
-response = requests.post("http://localhost:8000/evaluate/retrieval", 
+response = requests.post("http://127.0.0.1:8000/evaluate/retrieval", 
                         json={"queries": queries, "mode": "both"})
 results = response.json()
 
