@@ -53,7 +53,7 @@ legal_mern_chatbot/
 ### 1. Clone Repository
 
 ```bash
-git clone (https://github.com/GuduriAmulya/legal_mern_chatbot.git )
+git clone (https://github.com/NiharikaKondepudi/INDIERAG-Legal-Chatbot.git)
 cd legal_mern_chatbot
 ```
 
