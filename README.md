@@ -2,6 +2,10 @@
 
 A full-stack legal question-answering system combining MERN stack with Retrieval-Augmented Generation (RAG) using hybrid search (BM25 + semantic vectors) and LLM-as-a-Judge evaluation.
 
+## IndieRAG functioning Video
+
+[Watch the demo here](https://youtu.be/NdJW5Fkay5k)
+
 ## 🎯 Features
 
 - **Hybrid Retrieval**: Combines BM25 lexical matching with semantic vector search (90% accuracy on legal queries)
